@@ -22,7 +22,7 @@ const LISTENING_PORT = process.env.LISTENING_PORT || 3000;                     /
 // 核心功能设置
 const SYSTEM_SETTINGS = {
     ['CONFIG_ID']: CONFIG_ID,              
-    ['LOG_LEVEL']: 'info',       // 日志级别，用于调试：none, info, warn, error
+    ['LOG_LEVEL']: 'none',       // 日志级别，用于调试：none, info, warn, error
     ['BUFFER_ALLOC_SIZE']: '2048',     // 增加缓冲区分配大小 (KB)
     ['OPTIMIZER_PATH']: `%2F${OPTIMIZER_PATH}`,    // 优化器内部路径 
     ['MAX_QUEUED_REQUESTS']: 30,  // 最大缓存POST请求数
