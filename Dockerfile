@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package.json ./
 COPY optimizer.js ./
-COPY index.html ./ # 新增：复制 index.html 文件
+COPY index.html ./
 
 EXPOSE 3000
 
