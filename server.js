@@ -23,7 +23,7 @@ const SETTINGS = {
     // 关键修正：这里的键名必须是 'UUID'，因为后续代码通过 SETTINGS.UUID 调用
     // 值则使用我们新的 KEY 变量
     ['UUID']: KEY,
-    ['LOG_LEVEL']: 'none',       // 日志级别,调试使用,none,info,warn,error
+    ['LOG_LEVEL']: 'debug',       // 日志级别,调试使用,none,info,warn,error
     ['BUFFER_SIZE']: '2048',     // 增加缓冲区大小
     ['XPATH']: `%2F${XPATH}`,    // xhttp路径
     ['MAX_BUFFERED_POSTS']: 30,  // 最大缓存POST请求数
