@@ -30,7 +30,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/website-xtp:1.0
+            ghcr.io/${{ github.repository_owner }}/website-xtp:ceshi
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=安全网页访问服务
