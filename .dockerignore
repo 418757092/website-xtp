@@ -1,0 +1,15 @@
+# 忽略说明和git相关文件
+README.md
+.git
+.gitignore
+
+# 忽略 Docker 相关文件
+.dockerignore
+Dockerfile
+
+# 忽略本地开发依赖（非常重要）
+node_modules
+
+# 忽略其他可能存在的临时文件或日志
+*.log
+.env
