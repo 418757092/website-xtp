@@ -1,14 +1,14 @@
 {
-  "name": "website-xtp",
+  "name": "web-xtp",
   "version": "2.2.3",
   "description": "Advanced Web Service Optimizer",
   "author": "TechFlow Solutions",
-  "repository": "https://github.com/TechFlow-Solutions/web-optimizer",
+  "repository": "",
   "license": "MIT",
   "private": false,
-  "main": "optimizer.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node optimizer.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^1.8.2"
